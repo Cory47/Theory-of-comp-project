@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ef47b57-00c7-48aa-b698-8dfa6b063f82" name="Changes" comment="Added file input and test file">
+    <list default="true" id="9ef47b57-00c7-48aa-b698-8dfa6b063f82" name="Changes" comment="Added a few comments">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GrammarInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GrammarInput.java" afterDir="false" />
     </list>
@@ -73,7 +73,7 @@
       <updated>1668299771054</updated>
       <workItem from="1668299772609" duration="1826000" />
       <workItem from="1668386438266" duration="25000" />
-      <workItem from="1668485781704" duration="9753000" />
+      <workItem from="1668485781704" duration="11115000" />
     </task>
     <task id="LOCAL-00001" summary="inital commit">
       <created>1668299859940</created>
@@ -96,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668489748569</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added a few comments">
+      <created>1668583558467</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668583558467</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +124,7 @@
     <MESSAGE value="inital commit" />
     <MESSAGE value="Added test print statement" />
     <MESSAGE value="Added file input and test file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added file input and test file" />
+    <MESSAGE value="Added a few comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a few comments" />
   </component>
 </project>
