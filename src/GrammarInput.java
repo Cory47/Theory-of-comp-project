@@ -8,6 +8,8 @@ public class GrammarInput {
         Scanner userInput = new Scanner(System.in);
         String filepath = userInput.nextLine();
         ArrayList<String> output = getValues(filepath);
+        //TODO: Transformation to Chomsky
+        //TODO: Transformation to PDA
         System.out.print(output.toString());
     }
 
@@ -15,7 +17,6 @@ public class GrammarInput {
         FileInputStream in = null;
         try {
             in = new FileInputStream(filepath);
-
         } catch (FileNotFoundException e){
             e.printStackTrace();
         }
