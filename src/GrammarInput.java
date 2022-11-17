@@ -8,10 +8,11 @@ public class GrammarInput {
         String filepath = userInput.nextLine();
         ArrayList<String> output = getValues(filepath);
         Grammar test = storeValue();
+        System.out.println(test.toString());
         Grammar chomsky = Chomsky(test);
-        chomsky.toString();
+        System.out.println(chomsky.toString());
         PDA pda = toPDA(chomsky);
-        pda.toString();
+        System.out.println(pda.toString());
         System.out.println("We have therefore converted from a general grammar to a chomsky normal form grammar to a PDA");
         //TODO: Transformation to Chomsky
         //TODO: Transformation to PDA
