@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ef47b57-00c7-48aa-b698-8dfa6b063f82" name="Changes" comment="Added a few comments">
+    <list default="true" id="9ef47b57-00c7-48aa-b698-8dfa6b063f82" name="Changes" comment="Little bit of formatting">
+      <change afterPath="$PROJECT_DIR$/src/Clause.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Rule.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Grammar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Grammar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GrammarInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GrammarInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PDA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PDA.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +77,10 @@
       <updated>1668299771054</updated>
       <workItem from="1668299772609" duration="1826000" />
       <workItem from="1668386438266" duration="25000" />
-      <workItem from="1668485781704" duration="11115000" />
+      <workItem from="1668485781704" duration="11805000" />
+      <workItem from="1668643193616" duration="1581000" />
+      <workItem from="1669334001075" duration="732000" />
+      <workItem from="1669616016299" duration="10454000" />
     </task>
     <task id="LOCAL-00001" summary="inital commit">
       <created>1668299859940</created>
@@ -103,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668583558467</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Little bit of formatting">
+      <created>1668643086221</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668643086221</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +139,7 @@
     <MESSAGE value="Added test print statement" />
     <MESSAGE value="Added file input and test file" />
     <MESSAGE value="Added a few comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a few comments" />
+    <MESSAGE value="Little bit of formatting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Little bit of formatting" />
   </component>
 </project>
