@@ -5,7 +5,16 @@ public class Rule {
     ArrayList<Clause> clauses = new ArrayList<Clause>();
 
     public void addClause(Clause clause) {
-        this.clauses.add(clause);
+        //prevents duplicate rules from being added
+        for (int i = 0; i < clauses.size(); i++) {
+            if (clauses.get(i).name.equals(clause.name)) {
+                return;
+            }
+        }
+        //check that the rule is not empty
+        if (!clause.name.equals("")) {
+            this.clauses.add(clause);
+        }
     }
 
     public String toString() {

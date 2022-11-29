@@ -7,6 +7,10 @@ public class Grammar {
     }
     @Override
     public String toString() {
-        return rules.toString();
+        String output = "";
+        for (int i = 0; i < rules.size(); i++) {
+            output = output + (rules.get(i).toString()) + "\n";
+        }
+        return output;
     }
 }
