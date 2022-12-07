@@ -1,0 +1,23 @@
+Hello!
+
+To execute this program, run the main method in the GrammarInput class. I tested and created this
+project in intelliJ, but I'm assuming it will work for any Java IDE. Upon running,
+you will be prompted to input a text file containing a valid grammar.
+I have included three test files of increasing complexity, Test1.txt, Test2.txt, and Test3.txt
+
+If you want to run your own grammar, create a new text file, and follow the following convention:
+
+(Rule) -> (clause) | (clause)
+
+The rule should be an uppercase letter, and the clause should a lowercase letter, a Rule, or ε
+
+I have also provided some error cases, such as empty.txt.
+If this is run, there are no strings that can be generated from this grammar, so the rules are empty.
+
+There are multiple ways to generate a grammar in Chomsky, and my program recursively generates rules
+until every rule has only two characters. This results in many new rules being created, however it
+still follows the Chomsky formatting guidelines.
+
+I hope you enjoy the project!
+
+- Cory

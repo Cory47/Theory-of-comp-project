@@ -1,0 +1,3 @@
+S -> a | b | aS | Sa | T
+T -> a | bT | U
+U -> b | aUb | a | ε

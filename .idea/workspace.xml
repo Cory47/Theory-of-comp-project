@@ -4,15 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ef47b57-00c7-48aa-b698-8dfa6b063f82" name="Changes" comment="Completed first rule of Chomsky, and parsed grammar">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Counter.java" afterDir="false" />
+    <list default="true" id="9ef47b57-00c7-48aa-b698-8dfa6b063f82" name="Changes" comment="Finished Conversion to Chomsky Form">
+      <change afterPath="$PROJECT_DIR$/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/empty.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Grammar-to-Chomsky-and-PDA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Grammar-to-Chomsky-and-PDA.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Grammar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Grammar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Input.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GrammarInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GrammarInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Rule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PDA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PDA.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,21 +43,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="GrammarInput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GrammarInput" />
@@ -85,7 +87,11 @@
       <workItem from="1669334001075" duration="732000" />
       <workItem from="1669616016299" duration="10795000" />
       <workItem from="1669679132401" duration="4896000" />
-      <workItem from="1669684463347" duration="25946000" />
+      <workItem from="1669684463347" duration="41157000" />
+      <workItem from="1669777810289" duration="4572000" />
+      <workItem from="1669789860300" duration="7140000" />
+      <workItem from="1670260718641" duration="2828000" />
+      <workItem from="1670279693307" duration="9000" />
     </task>
     <task id="LOCAL-00001" summary="inital commit">
       <created>1668299859940</created>
@@ -129,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669675229775</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Finished Conversion to Chomsky Form">
+      <created>1669748270660</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669748270660</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +166,7 @@
     <MESSAGE value="Added a few comments" />
     <MESSAGE value="Little bit of formatting" />
     <MESSAGE value="Completed first rule of Chomsky, and parsed grammar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed first rule of Chomsky, and parsed grammar" />
+    <MESSAGE value="Finished Conversion to Chomsky Form" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Conversion to Chomsky Form" />
   </component>
 </project>
